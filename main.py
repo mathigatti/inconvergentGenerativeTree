@@ -73,9 +73,9 @@ def main():
       map(render.branch2,tree.Q)
 
       if not i%200:
-        print i, len(tree.Q)
+        print(i, len(tree.Q))
 
-    render.sur.write_to_png('/media/var/andreas_tree/test_bp42_{:10.0f}.png'.format(time()))
+    render.sur.write_to_png('test_bp42_{:10.0f}.png'.format(time()))
 
 if __name__ == '__main__':
 
