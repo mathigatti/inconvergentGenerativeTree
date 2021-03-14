@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import cairo
-import gtk
+from gi.repository import Gtk
 import gobject
 
 from numpy import cos, sin, pi, sqrt, square
@@ -178,14 +178,14 @@ class Animate(Render):
 
     Render.__init__(self, n, front, back, trunk, trunk_stroke, grains)
 
-    window = gtk.Window()
+    window = Gtk.Window()
     window.resize(self.n, self.n)
 
     self.steps_itt = steps_itt
     self.step = step
 
     window.connect("destroy", self.__destroy)
-    darea = gtk.DrawingArea()
+    darea = Gtk.DrawingArea()
     darea.connect("expose-event", self.expose)
     window.add(darea)
     window.show_all()
@@ -197,7 +197,7 @@ class Animate(Render):
 
   def __destroy(self,*args):
 
-    gtk.main_quit(*args)
+    Gtk.main_quit(*args)
 
   def expose(self,*args):
 
