@@ -1,5 +1,7 @@
-Tree
-=============
+# Generative Tree
+This code was developed by [Anders Hoff](https://inconvergent.net/), It's a little bit hard to set up so I moved it to Google Colab. Have fun generating some trees :)
+
+### Original description of the project by Anders Hoff
 
 One of the first attempts I made at generative algorithms was a copy of [this](http://www.complexification.net/gallery/machines/treeGarden/) great little
 application. Recently I decided it was about time that I revisited this
@@ -12,8 +14,4 @@ glance.
 
 ![tree](http://inconvergent.net/img/tree_c.jpg "tree")
 
-## Try it out [here](https://colab.research.google.com/drive/1_0xVrhvqPk_muf4qFJo3DRMVPvxVhR_J#scrollTo=7pFhl1oGrdEa) in the browser using Google Colab.
-
------------
-http://inconvergent.net
-
+### Try it out [here](https://colab.research.google.com/drive/1_0xVrhvqPk_muf4qFJo3DRMVPvxVhR_J#scrollTo=7pFhl1oGrdEa) in the browser using Google Colab.
